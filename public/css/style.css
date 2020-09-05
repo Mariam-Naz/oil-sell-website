@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Mulish', sans-serif;
+    background-color:rgb(241, 242, 243);
+    overflow-x: hidden;
+}
+.cover{
+    width: 100%;
+    height:56rem;
+  }
+/* Praise */
+.consult-p{
+    font-size: 16px;
+    padding: 1% 4% 1% 4%;
+}
+.note{
+    font-size: 13px;
+    color: yellow;
+    margin-top:3%;
+}
+.bold{
+    font-weight: 700;
+}
+.card-praise{
+    margin: 3% 15% 6% 15%;
+    box-shadow: 4px 4px 5px 0 rgba(0,0,0,0.6);
+    transition: 0.4s;
+    background-color:#4261b4; 
+    text-align:center;
+    font-family: sans-serif;
+    padding-top: 12px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.whatsapp{
+    font-size: 4rem;
+    color: rgb(44, 185, 44);
+}
+.whatsapp:hover{
+    color: rgb(37, 253, 37);
+    transform: scale(1.1);
+}
+
+/*Products*/
+.pd{
+    font-size:4rem;
+    font-weight:300;
+    margin-bottom: 3.5%;
+}
+
+.card{
+    background-color:#fff;
+    text-align:center;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    margin-bottom: 6%;
+}
+.card-product:hover{
+    transition:0.3s;
+    box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.158);
+   
+}
+
+.text-muted{
+    font-size: 1.3rem;
+}
+.display_p{
+    margin:1% 10%;
+}
+.card-title{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.card-text{
+    font-weight: 500;
+    font-size:1.5rem;
+}
+.card-img-top{
+    height:250px;
+    width:100%;
+  }
+.desc{
+    font-size:1.3rem;
+    font-weight: 500;
+}
+.card-read-more {
+    border-top: 1px solid #D4D4D4;
+}
+  
+.card-read-more div {
+    text-decoration: none !important;
+    font-weight:600;
+    text-transform: uppercase;
+    cursor: auto;
+}
+.btn{
+    outline: none;
+    display: inline-block;
+    padding: 1rem 1.8rem;
+    font-size: 1rem;
+    border: 2px solid transparent;
+    border-radius: 2rem;
+    line-height: 1;
+    margin: 0 1rem;
+    transition: .3s;
+    text-transform: uppercase;
+}
+
+
+/* navbar */
+.nav-confluid{
+  padding: 0;
+  display:flex;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+
+header{
+    position: sticky;
+    top: 0px;
+    background-color: #ffffff;
+    width: 100%;
+    z-index: 1000;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+  }
+
+
+/*footer*/
+
+.footer{
+    padding: 5% 4%;
+    background-color: rgb(17, 17, 17);
+}
+.mt-5{
+    margin-top: 3%;
+    font-size: 2.5rem;
+}
+
+.insta{
+    font-size: 4rem;
+    padding-left: 3%;
+    padding-right: 3%;
+    color:rgb(194, 143, 71);
+  }
+  
+.insta:hover{
+    color:rgb(231, 174, 88);
+    transform: scale(1.1);
+}
+.fb{
+    font-size: 4rem;
+    color: rgb(31, 143, 207);
+}
+
+.fb:hover{
+    color: rgb(72, 176, 236);
+    transform: scale(1.1);
+}
+
+/* Login */
+.login{
+    font-size: 2rem;
+    margin: 10% 20% 10% 20%;
+  }
+
+.login-heading{
+    margin-top:5%;
+}
+
+.form-group{
+    margin:5% 1%
+}
